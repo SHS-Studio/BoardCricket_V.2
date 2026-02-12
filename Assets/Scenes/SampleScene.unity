@@ -1534,100 +1534,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 537549811}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &931521284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 931521286}
-  - component: {fileID: 931521285}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &931521285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931521284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 579bd9123179aeb41bea54bb82532346, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Grids:
-  - {fileID: 290408211}
-  - {fileID: 2015980271}
-  - {fileID: 1668919486}
-  - {fileID: 1932565185}
-  - {fileID: 2052986368}
-  - {fileID: 728106418}
-  - {fileID: 112385399}
-  - {fileID: 1444671364}
-  - {fileID: 697240799}
-  - {fileID: 150253985}
-  - {fileID: 1740040680}
-  - {fileID: 2067830130}
-  - {fileID: 1936348679}
-  - {fileID: 1457989977}
-  - {fileID: 895820264}
-  - {fileID: 1108957030}
-  - {fileID: 805483856}
-  - {fileID: 387882989}
-  - {fileID: 1696748853}
-  - {fileID: 1472509352}
-  - {fileID: 191208388}
-  - {fileID: 1065990373}
-  - {fileID: 585242326}
-  - {fileID: 619647563}
-  - {fileID: 1564290219}
-  - {fileID: 668419106}
-  - {fileID: 412341018}
-  - {fileID: 932828762}
-  - {fileID: 1580504206}
-  - {fileID: 826398550}
-  - {fileID: 131403286}
-  - {fileID: 174875920}
-  - {fileID: 1386723264}
-  - {fileID: 1907946306}
-  - {fileID: 688162330}
-  - {fileID: 227193648}
-  - {fileID: 1867091648}
-  - {fileID: 1732764797}
-  Pawn:
-  - {fileID: 1983454909}
-  - {fileID: 1070453963}
-  P1_pos: 19
-  P2_pos: 0
-  isTurnOver: 0
-  Ismoving: 0
-  currentGrid: 0
-  currentPlayer: 0
-  timeLimit: 5
-  timer: 0
---- !u!4 &931521286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931521284}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.907052, y: -3.6044464, z: -1.7728539}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &932828761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,7 +1914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccc949acd4d64245b948758f290ca5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_turnmanager: {fileID: 931521285}
+  m_turnmanager: {fileID: 0}
   Run: 0
   Wicket: 10
   Over: 20
@@ -2158,7 +2064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b78721d3be0a6247ac10cdd08b51834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_turnmanager: {fileID: 931521285}
+  m_turnmanager: {fileID: 0}
   Dice: {fileID: 919132148858061075}
   Dicecount: 0
   rotateTime: 1
@@ -2939,7 +2845,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 931521285}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TrunManager, Assembly-CSharp
         m_MethodName: OnRollDiceButtonClick
         m_Mode: 1
@@ -3392,7 +3298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccc949acd4d64245b948758f290ca5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_turnmanager: {fileID: 931521285}
+  m_turnmanager: {fileID: 0}
   Run: 0
   Wicket: 10
   Over: 20
@@ -3745,7 +3651,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
-  - {fileID: 931521286}
   - {fileID: 1439649655}
   - {fileID: 537549811}
   - {fileID: 543450652796509097}
